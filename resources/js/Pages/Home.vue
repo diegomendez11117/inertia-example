@@ -6,7 +6,7 @@
 <script>
     import Nav from "../Shared/Nav";
     export default {
-        components: {Nav}
+        components: {Nav},
     }
 </script>
 

@@ -47,11 +47,15 @@ Route::get('/menu', function () {
 });
 
 Route::get('/myorders', function () {
-    return Inertia::render('MyOrder');
+    return Inertia::render('MyOrders');
 });
 
 Route::get('/profile', function () {
     return Inertia::render('Profile');
+});
+
+Route::get('/notifications', function () {
+    return Inertia::render('Notifications');
 });
 
 

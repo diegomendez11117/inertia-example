@@ -1,10 +1,13 @@
 <template>
-    
+    <Nav />
+    <h1 class="text-4xl font-bold" >Check Out.</h1>
 </template>
 
 <script>
+    import Nav from "../Shared/Nav";
     export default {
-        name: "CheckOut"
+        name: "Checkout",
+        components: {Nav},
     }
 </script>
 
